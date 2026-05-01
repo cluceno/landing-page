@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /* Page structure */
 
 body {
@@ -51,7 +53,7 @@ a {
 .hero-text {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 900px;
+    font-weight: 900;
 }
 
 .hero-subtext {
@@ -71,7 +73,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    flex-wrap: wrap;
     width: 500px;
 }
 
@@ -109,8 +110,7 @@ a {
 
 img {
     padding: 64px;
-    border: 2px solid;
-    border-color: #3882F6;
+    border: 2px solid #3882F6;
     border-radius: 8px;
 }
 
@@ -145,8 +145,8 @@ img {
 
 .quote {
     font-size: 36px;
-    font-color:#1F2937;
-    font-weight: 300px;
+    color:#1F2937;
+    font-weight: 300;
 }
 
 .author {
@@ -162,7 +162,7 @@ img {
     padding: 32px 48px;
     gap: 64px;
     background-color: #3882F6;
-    margin: 42px;
+    margin: 40px;
     border-radius: 8px;
 }
 
